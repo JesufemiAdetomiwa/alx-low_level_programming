@@ -34,11 +34,11 @@ n = rand() - RAND_MAX / 2;
 
   /* your code goes there */                                                      
 
-if (n >0)                                                                         
+if (n > 0)                                                                         
 
 {                                                                                 
 
-        printf(%i is positive\n*, n);                                             
+        printf("%i is positive\n", n);                                             
 
 }                                                                                 
 
@@ -60,4 +60,7 @@ else if (n < 0)
 
 return(0);                                                                        
 
-}
+}  
+git add .
+git commit -m 'positive or negative'
+git push
